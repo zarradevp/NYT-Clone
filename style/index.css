@@ -193,8 +193,11 @@ p > span {
     flex-direction: column;
     justify-content: center;
     width: 42%;
-    border-bottom: 0.8px solid lightgray;
     padding: 10px;
+}
+
+.art4-underline {
+    border-bottom: 0.8px solid lightgray;
 }
 
 .c-art4 > p {
@@ -275,4 +278,89 @@ p > span {
     margin: 16px 0;
     padding: 0;
     color: #000000;
+}
+
+#ad {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#ad > p {
+    width: 70%;
+    font-style: italic;
+}
+
+#ad > button {
+    background-color: white;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 0 30px;
+    height: 40%;
+    cursor: pointer;
+}
+
+#video-t {
+    margin-right: 2rem;
+    margin-left: 7%;
+    margin-top: 5px;
+    width: 87%;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+    font-family: 'PT Serif', Georgia, 'Times New Roman', Times, serif;
+}
+
+#video-t > span {
+    font-size: 0.8rem;
+    color: rgb(136, 136, 136);
+}
+
+#img-t {
+    margin-right: 2rem;
+    margin-left: 7%;
+    margin-top: 5px;
+    width: 87%;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+    font-family: 'PT Serif', Georgia, 'Times New Roman', Times, serif;
+}
+
+#img-t > span {
+    font-size: 0.8rem;
+    color: rgb(136, 136, 136);
+}
+
+#art4 {
+    border-top: 0.8px solid lightgray;
+}
+
+#last-p {
+    font-size: 12.8px;
+    color: #888888;
+}
+
+.list-a > a {
+    font-size: 12.8px;
+    color: #666666;
+    text-decoration: underline;
+}
+
+.icon-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0 3rem 0;
+}
+
+#comments {
+    width: 70%;
+    font-size: 13px;
+}
+
+.comment-area {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
 }
