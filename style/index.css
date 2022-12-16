@@ -91,6 +91,10 @@ ul > li {
     display: inline-block;
 }
 
+li > a {
+    color: black;
+}
+
 .u-list {
     list-style: none;
     display: flex;
