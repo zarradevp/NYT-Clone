@@ -111,7 +111,7 @@ li > a {
 }
 
 #superJumbo {
-    display: grid;
+    display: flex;
     justify-content: center;
 }
 
@@ -127,4 +127,79 @@ li > a {
 
 p > span {
     color: lightgray;
+}
+
+.art2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.c-art2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+    width: 42%;
+}
+
+.c-art2 > h5 {
+    width: 100%;
+    text-align: left;
+}
+
+.c-art2 > time {
+    width: 100%;
+    font-size: 13px;
+    color: lightgray;
+}
+
+.c-art2 > p {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.art3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    line-height: 5px;
+}
+
+.c-art3 > a {
+    text-decoration: none;
+    color: #567b95;
+}
+
+.c-art3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-top: 30px;
+    padding-bottom: 45px;
+}
+
+.art4 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.c-art4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 42%;
+    border-bottom: 0.8px solid lightgray;
+    padding: 10px;
+}
+
+.c-art4 > p {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 16px 0;
+    padding: 0;
 }
