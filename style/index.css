@@ -203,3 +203,76 @@ p > span {
     margin: 16px 0;
     padding: 0;
 }
+
+.art5 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.c-art5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding: 10px;
+}
+
+.c-art5 > p {
+    font-size: 17px;
+    font-family: Open sans, sans-serif;
+    margin: 16px 0;
+    padding: 0;
+}
+
+.c-art5 > h1{
+    font-family: "Cheltenham", sans-serif;
+    font-size: 28px;
+}
+
+.art6 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.c-art6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 192px;
+    padding: 10px;
+}
+
+.c-art6 > p {
+    font-size: 16px;
+    font-family: Open sans, sans-serif;
+    margin: 16px 0;
+    padding: 0;
+    color: #000000;
+}
+
+.art7 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.c-art7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 192px;
+    padding: 10px;
+}
+
+.c-art7 > p {
+    font-size: 16px;
+    font-family: Open sans, sans-serif;
+    margin: 16px 0;
+    padding: 0;
+    color: #000000;
+}
