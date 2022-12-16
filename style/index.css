@@ -64,4 +64,63 @@ body {
 
 main {
     margin-top: 42.5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    font-family: Open sans, sans-serif;
+    font-style: normal;
+}
+
+.art1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 4px;
+    font-size: 32px;
+    font-style: italic;
+    font-family: 'PT Serif', Georgia, 'Times New Roman', Times, serif;
+}
+
+.art1 > h1 {
+    width: 40%;
+    margin: 2rem 4rem 0 4rem;
+}
+
+ul > li {
+    display: inline-block;
+}
+
+.u-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.u-list > li {
+    margin-left: 20px;
+}
+
+.border1 {
+    border-bottom: 0.8px solid lightgray;
+    margin: 1rem 20rem 1rem 23rem;
+}
+
+#superJumbo {
+    display: grid;
+    justify-content: center;
+}
+
+#firstP {
+    display: flex;
+    justify-content: center;
+    line-height: 22px;
+}
+
+#firstP > p {
+    width: 55.5%;
+}
+
+p > span {
+    color: lightgray;
 }
